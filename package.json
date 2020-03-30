@@ -1,0 +1,30 @@
+{
+  "name": "diffchecker",
+  "version": "1.0.0",
+  "description": "Compares two configuration files and shows a difference.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "gendiff": "src/bin/gendiff.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashavatamanyuk/diffchecker.git"
+  },
+  "keywords": [
+    "difference",
+    "checker"
+  ],
+  "author": "Sasha Vatamanyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashavatamanyuk/diffchecker/issues"
+  },
+  "homepage": "https://github.com/sashavatamanyuk/diffchecker#readme",
+  "dependencies": {
+    "commander": "^5.0.0"
+  }
+}
